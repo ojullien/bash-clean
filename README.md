@@ -10,7 +10,7 @@ Simple tool for cleanning the /var/log folder.
 
 ## Installation
 
-Requires: a Debian/Ubuntu version of linux and a Bash version ~4.4. [bash-sys](https://github.com/ojullien/bash-sys), [bash-sys](https://github.com/ojullien/bash-manageservices) installed.
+Requires: a Debian/Ubuntu version of linux and a Bash version ~4.4. [bash-sys](https://github.com/ojullien/bash-sys), [bash-manageservices](https://github.com/ojullien/bash-manageservices) installed.
 
 1. [Download a release](https://github.com/ojullien/bash-clean/releases) or clone this repository.
 2. Use [scripts/install.sh](scripts/install.sh) to automatically install the application in the /opt/oju/bash project folder.
