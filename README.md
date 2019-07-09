@@ -1,6 +1,6 @@
 # Bash-Clean
 
-Simple tool for cleanning the /var/log folder.
+Simple tool for cleaning the /var/log folder.
 
 *Note: I use this script for my own projects, it contains only the features I need.*
 
