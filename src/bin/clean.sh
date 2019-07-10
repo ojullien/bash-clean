@@ -1,7 +1,7 @@
 #!/bin/bash
 ## -----------------------------------------------------------------------------
 ## Linux Scripts.
-## Clean logs.
+## Simple tool for cleaning the /var/log folder.
 ##
 ## @package ojullien\bash\bin
 ## @license MIT <https://github.com/ojullien/bash-clean/blob/master/LICENSE>
