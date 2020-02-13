@@ -7,11 +7,11 @@
 ## -----------------------------------------------------------------------------
 
 # Files to delete in /var/log
-readonly m_CLEAN_FILES="*.gz *.old *.1 *.2 *.log.*"
+readonly m_CLEAN_FILES="*.gz *.old *.1 *.2 *.log.* *.err"
 # Directories to clean in /var/log
-readonly m_CLEAN_SPEC_DIR=("exim4" "apache2_evasive" "apache2" "php7.0" "php7.0" "mysql" "php5" "apt")
+readonly m_CLEAN_SPEC_DIR=("exim4" "apache2_evasive" "apache2" "php7.0" "php7.0" "mysql" "apt")
 # Files to clean in /var/log/${m_CLEAN_SPEC_DIR[x]}
-readonly m_CLEAN_SPEC_FILES=("*log.*" "dos-*" "*.log" "*.log" "*.slow" "*.log" "*.log" "*.log")
+readonly m_CLEAN_SPEC_FILES=("*log.*" "dos-*" "*.log" "*.log" "*.slow" "*.log" "*.log")
 
 ## -----------------------------------------------------------------------------
 ## Trace
